@@ -8,6 +8,21 @@ const qaSkills = [
   "Casos de prueba",
   "Gestión de incidencias",
   "Kanban",
+  "Selenium",
+  "JMeter",
+  "K6",
+  "Jira",
+  "TestLink",
+  "Agile",
+  "Linux",
+  "Python",
+  "Git",
+  "AWS",
+  "EC2",
+  "S3",
+  "IAM",
+  "RDS",
+  "VPC",
 ];
 
 const QaSkillsSection = () => {
