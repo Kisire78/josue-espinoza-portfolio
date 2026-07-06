@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Database, Search, Brain, Terminal, BarChart3, ShieldCheck } from "lucide-react";
+import { Database, Search, Brain, Terminal, BarChart3, ShieldCheck, Server, Cloud, Shield } from "lucide-react";
 
 const skills = [
   { icon: Database, title: "SQL", description: "Consultas JOIN, validación y análisis de datos en bases relacionales." },
