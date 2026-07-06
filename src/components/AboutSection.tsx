@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Database, Search, Brain, Terminal, BarChart3, ShieldCheck } from "lucide-react";
+import { Database, Search, Brain, Terminal, BarChart3, ShieldCheck, Server, Cloud } from "lucide-react";
 
 const skills = [
   { icon: Database, title: "SQL", description: "Consultas JOIN, validación y análisis de datos en bases relacionales." },
@@ -8,6 +8,8 @@ const skills = [
   { icon: Search, title: "Validación de Datos", description: "Control de calidad, integridad y consistencia de información." },
   { icon: ShieldCheck, title: "QA & Testing", description: "Pruebas funcionales, testing de APIs y detección de errores." },
   { icon: Brain, title: "Flujos ETL", description: "Comprensión de procesos de extracción, transformación y carga de datos." },
+  { icon: Server, title: "Debian", description: "Administración básica de sistemas Linux en entornos de desarrollo y servidores." },
+  { icon: Cloud, title: "IAM Azure", description: "Gestión de identidades y accesos en la nube de Microsoft Azure." },
 ];
 
 const AboutSection = () => {
