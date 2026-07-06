@@ -32,9 +32,12 @@ const QaExperienceSection = () => {
           className="mb-16"
         >
           <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Testing & Calidad</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold">
+          <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
             Experiencia en QA y Testing
           </h2>
+          <p className="text-muted-foreground leading-relaxed max-w-3xl">
+            Durante mi práctica en la cooperativa Coopeuch participé en procesos de gestión de identidades y seguridad TI, realizando validación de datos, seguimiento de incidencias y control de accesos. También colaboré en la automatización de un sistema de monitoreo y alertas, fortaleciendo habilidades de análisis, validación de procesos y detección de inconsistencias. Además, he realizado pruebas funcionales, validación de APIs y bases de datos en proyectos académicos relacionados con QA.
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
