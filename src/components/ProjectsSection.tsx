@@ -65,7 +65,7 @@ const ProjectsSection = () => {
         >
           <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Portafolio</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold">
-            Proyectos
+            Proyectos y habilidades adquiridas
           </h2>
         </motion.div>
 
