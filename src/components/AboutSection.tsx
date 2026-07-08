@@ -29,7 +29,7 @@ const AboutSection = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Ingeniero en Informática con enfoque en análisis y gestión de datos. Tengo experiencia práctica en SQL, 
-              validación de información y control de calidad de datos, adquirida durante mi práctica profesional en Banco Coopeuch.
+              validación de información y control de calidad de datos, adquirida durante mi práctica profesional en Cooperativa Coopeuch.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               He trabajado en entornos donde es clave asegurar la consistencia, integridad y correcto flujo de la información, 
@@ -37,7 +37,7 @@ const AboutSection = () => {
             </p>
 
             <div className="p-5 rounded-xl bg-card border border-border">
-              <h3 className="font-display font-semibold text-lg mb-3">Experiencia Práctica — Banco Coopeuch</h3>
+              <h3 className="font-display font-semibold text-lg mb-3">Experiencia Práctica — Cooperativa Coopeuch</h3>
               <p className="text-muted-foreground text-sm mb-3">
                 Práctica profesional en Gestión de Identidades y Seguridad TI:
               </p>
