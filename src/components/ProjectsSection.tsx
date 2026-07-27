@@ -11,15 +11,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Automatización y Análisis con Python",
-    description: "Script automatizado que consulta APIs, procesa datos y almacena resultados en base de datos para análisis posterior.",
-    details: [
-      "Integración con APIs y procesamiento de datos",
-      "Almacenamiento estructurado en MySQL",
-      "Alertas automáticas por Telegram",
-    ],
-    tags: ["Python", "API", "MySQL", "Automatización", "Datos"],
-    
+    title: "Analizador Automatizado de Resultados de Pruebas QA",
+    description: "Herramienta en Python que automatiza el análisis de resultados de pruebas de software desde archivos Excel o CSV, calcula métricas de calidad, detecta errores recurrentes y genera reportes visuales para el seguimiento de incidencias.",
+    details: [],
+    tags: ["Python", "Pandas", "Streamlit", "Matplotlib", "OpenPyXL", "Git"],
   },
   {
     title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
