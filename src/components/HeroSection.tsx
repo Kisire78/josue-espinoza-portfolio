@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="text-muted-foreground tracking-[0.3em] uppercase text-sm mb-6 font-sans"
         >
-          Analista de Datos & QA
+          Junior de Analista de Datos & QA
         </motion.p>
 
         <motion.h1
