@@ -40,6 +40,9 @@ const QaSkillsSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold">
             QA Testing
           </h2>
+          <p className="text-muted-foreground text-sm md:text-base mt-3 max-w-2xl">
+            Herramientas y tecnologías de las cuales tengo noción de conocimiento básico/intermedio por uso personal para proyectos o testeos.
+          </p>
         </motion.div>
 
         <div className="flex flex-wrap gap-3">
