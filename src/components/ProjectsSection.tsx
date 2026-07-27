@@ -22,24 +22,21 @@ const projects: Project[] = [
     repoUrl: "https://github.com/Kisire78",
   },
   {
-    title: "Validación de Datos en APIs REST",
-    description: "Validación de endpoints, consistencia de respuestas y calidad de datos entregados por servicios REST.",
-    details: [
-      "Verificación de integridad de datos",
-      "Validación de formatos y tipos de respuesta",
-      "Documentación de inconsistencias encontradas",
+    title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
+    description: "Desarrollo de una plataforma IoT para el monitoreo en tiempo real de espacios delimitados, integrando dispositivos inteligentes, procesamiento de datos y una aplicación web para centralizar alertas, visualización y gestión de eventos.",
+    details: [],
+    tags: [
+      "FastAPI",
+      "React",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "MQTT",
+      "WebRTC",
+      "Raspberry Pi 5",
+      "ESP32",
+      "Git",
+      "Scrum",
     ],
-    tags: ["Postman", "SQL", "Validación de Datos", "API"],
-  },
-  {
-    title: "Control de Calidad de Información",
-    description: "Análisis y validación de datos en sistemas, asegurando consistencia e integridad de la información.",
-    details: [
-      "Detección de datos duplicados e inconsistentes",
-      "Propuestas de mejora en flujos de datos",
-      "Reportes de calidad de información",
-    ],
-    tags: ["SQL", "Análisis", "QA de Datos", "Excel"],
   },
 ];
 
