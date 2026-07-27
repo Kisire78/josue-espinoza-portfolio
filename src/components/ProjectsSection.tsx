@@ -38,6 +38,23 @@ const projects: Project[] = [
       "Scrum",
     ],
   },
+  {
+    title: "Automatización de Alertas de Seguridad – Coopeuch",
+    description: "Desarrollo de una solución de automatización para consultar direcciones IP mediante InternetDB (Shodan), almacenar resultados y generar alertas automáticas, reduciendo tareas manuales y mejorando la eficiencia del proceso de monitoreo de seguridad.",
+    details: [],
+    tags: [
+      "Python",
+      "SQLite",
+      "InternetDB (Shodan)",
+      "HTTPX",
+      "Requests",
+      "Telegram Bot API",
+      "SMTP (Yagmail)",
+      "SSH",
+      "Debian Linux",
+      "Git",
+    ],
+  },
 ];
 
 const cardVariants = {
