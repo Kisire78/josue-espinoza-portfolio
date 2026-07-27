@@ -19,7 +19,7 @@ const projects: Project[] = [
       "Alertas automáticas por Telegram",
     ],
     tags: ["Python", "API", "MySQL", "Automatización", "Datos"],
-    repoUrl: "https://github.com/Kisire78",
+    
   },
   {
     title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
