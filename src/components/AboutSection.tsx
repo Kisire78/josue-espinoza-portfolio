@@ -8,7 +8,7 @@ const skills = [
   { icon: Bot, title: "Automatización", description: "Scripts Python y automatización web mediante Playwright para reducir tareas manuales y validar procesos." },
   { icon: Search, title: "Validación de Datos", description: "Control de calidad, integridad y consistencia de información." },
   { icon: BarChart3, title: "Análisis de Datos", description: "Interpretación de información, detección de patrones e inconsistencias." },
-  { icon: Server, title: "Debian / Linux", description: "Administración básica de sistemas Linux en entornos de desarrollo y servidores." },
+  { icon: Server, title: "Debian / Linux", description: "Uso de entornos Linux para ejecución de scripts, servidores y despliegue de procesos." },
   { icon: Cloud, title: "IAM Azure", description: "Conocimiento complementario en gestión de identidades y accesos en la nube." },
 ];
 
