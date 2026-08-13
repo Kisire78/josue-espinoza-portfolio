@@ -3,20 +3,21 @@ import { motion } from "framer-motion";
 const qaSkills = [
   "Testing funcional",
   "Postman",
+  "APIs REST",
   "SQL",
-  "Validación de APIs",
+  "Python",
+  "Playwright",
   "Casos de prueba",
   "Gestión de incidencias",
+  "Jira",
+  "TestLink",
+  "Git",
+  "Linux",
+  "Scrum",
   "Kanban",
   "Selenium",
   "JMeter",
-  "K6",
-  "Jira",
-  "TestLink",
-  "Agile",
-  "Linux",
-  "Python",
-  "Git",
+  "k6",
   "AWS",
   "EC2",
   "S3",
@@ -38,10 +39,10 @@ const QaSkillsSection = () => {
         >
           <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Competencias Técnicas</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold">
-            QA Testing
+            QA, Análisis & Automatización
           </h2>
           <p className="text-muted-foreground text-sm md:text-base mt-3 max-w-2xl">
-            Herramientas y tecnologías de las cuales tengo noción de conocimiento básico/intermedio por uso personal para proyectos o testeos.
+            Herramientas y tecnologías utilizadas en proyectos, prácticas, validaciones y procesos de aprendizaje aplicado.
           </p>
         </motion.div>
 

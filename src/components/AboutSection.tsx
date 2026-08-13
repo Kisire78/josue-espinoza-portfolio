@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { Database, Search, Brain, Terminal, BarChart3, ShieldCheck, Server, Cloud } from "lucide-react";
+import { Database, Search, Terminal, BarChart3, ShieldCheck, Server, Cloud, Bot } from "lucide-react";
 
 const skills = [
   { icon: Database, title: "SQL", description: "Consultas JOIN, validación y análisis de datos en bases relacionales." },
-  { icon: BarChart3, title: "Análisis de Datos", description: "Interpretación de información, detección de patrones e inconsistencias." },
+  { icon: ShieldCheck, title: "QA & Validación", description: "Pruebas funcionales, APIs, casos de prueba y detección de incidencias." },
   { icon: Terminal, title: "Python", description: "Automatización de procesos, scripts de monitoreo y validación." },
+  { icon: Bot, title: "Automatización", description: "Scripts Python y automatización web mediante Playwright para reducir tareas manuales y validar procesos." },
   { icon: Search, title: "Validación de Datos", description: "Control de calidad, integridad y consistencia de información." },
-  { icon: ShieldCheck, title: "QA & Testing", description: "Pruebas funcionales, testing de APIs y detección de errores." },
-  { icon: Brain, title: "Flujos ETL", description: "Comprensión de procesos de extracción, transformación y carga de datos." },
-  { icon: Server, title: "Debian", description: "Administración básica de sistemas Linux en entornos de desarrollo y servidores." },
-  { icon: Cloud, title: "IAM Azure", description: "Gestión de identidades y accesos en la nube de Microsoft Azure." },
+  { icon: BarChart3, title: "Análisis de Datos", description: "Interpretación de información, detección de patrones e inconsistencias." },
+  { icon: Server, title: "Debian / Linux", description: "Administración básica de sistemas Linux en entornos de desarrollo y servidores." },
+  { icon: Cloud, title: "IAM Azure", description: "Conocimiento complementario en gestión de identidades y accesos en la nube." },
 ];
 
 const AboutSection = () => {
@@ -25,15 +25,18 @@ const AboutSection = () => {
           >
             <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Sobre mí</p>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-              Datos & Calidad
+              Calidad, Análisis & Automatización
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Ingeniero en Informática con enfoque en análisis y gestión de datos. Tengo experiencia práctica en SQL, 
-              validación de información y control de calidad de datos, adquirida durante mi práctica profesional en Cooperativa Coopeuch.
+              Ingeniero en Informática con experiencia práctica en validación de información, control de accesos,
+              automatización de procesos y análisis de sistemas. Durante mi práctica profesional en Coopeuch trabajé
+              en Gestión de Identidades y Seguridad TI, participando en procesos donde la trazabilidad, consistencia
+              de datos y detección de incidencias eran fundamentales.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              He trabajado en entornos donde es clave asegurar la consistencia, integridad y correcto flujo de la información, 
-              combinando habilidades de análisis de datos con una mirada rigurosa de QA orientada a resultados.
+              Mi perfil combina una mirada analítica con aseguramiento de calidad: pruebas funcionales, validación de
+              APIs, consultas SQL, documentación de incidencias y automatización mediante Python. Continúo
+              desarrollando proyectos orientados a QA y automatización para fortalecer estas competencias.
             </p>
 
             <div className="p-5 rounded-xl bg-card border border-border">
@@ -44,19 +47,19 @@ const AboutSection = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                  Gestión y validación de datos de usuarios en múltiples sistemas
+                  Gestión y validación de cuentas, accesos e información de usuarios
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                  Análisis de flujos de acceso y detección de inconsistencias
+                  Revisión de flujos y detección de inconsistencias
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                  Automatización de procesos de monitoreo y validación
+                  Automatización de procesos de monitoreo mediante Python
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                  Implementación de alertas automáticas para detección de incidentes
+                  Implementación de alertas automáticas y seguimiento de resultados
                 </li>
               </ul>
             </div>

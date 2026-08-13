@@ -4,19 +4,19 @@ import { CheckCircle, ClipboardList, Bug, KanbanSquare } from "lucide-react";
 const qaPoints = [
   {
     icon: ClipboardList,
-    text: "Experiencia práctica en testing funcional y validación de sistemas en proyectos académicos y de formación, trabajando bajo enfoques ágiles y organización de tareas tipo Kanban.",
+    text: "Diseño y ejecución de pruebas funcionales a partir de requerimientos e historias de usuario.",
   },
   {
     icon: CheckCircle,
-    text: "Participación en diseño y ejecución de casos de prueba a partir de requerimientos e historias de usuario, validando flujos funcionales, comportamiento de aplicaciones y consistencia de datos.",
+    text: "Validación de APIs y endpoints con Postman, revisando respuestas, datos y comportamiento esperado.",
   },
   {
     icon: Bug,
-    text: "Experiencia en detección, documentación y seguimiento de incidencias, además de pruebas funcionales de APIs utilizando Postman para validación de endpoints, respuestas y comportamiento del servicio.",
+    text: "Consultas SQL para validar información, relaciones entre datos y resultados de pruebas.",
   },
   {
     icon: KanbanSquare,
-    text: "Enfoque orientado a calidad, análisis y mejora continua durante el ciclo de desarrollo.",
+    text: "Documentación y seguimiento de incidencias con enfoque en trazabilidad, análisis y mejora continua.",
   },
 ];
 
@@ -31,12 +31,12 @@ const QaExperienceSection = () => {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Testing & Calidad</p>
+          <p className="text-primary tracking-[0.2em] uppercase text-sm mb-3 font-sans">Calidad de Software</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Experiencia en QA y Testing
+            Experiencia práctica en QA
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-3xl">
-            Durante mi práctica en la cooperativa Coopeuch participé en procesos de gestión de identidades y seguridad TI, realizando validación de datos, seguimiento de incidencias y control de accesos. También colaboré en la automatización de un sistema de monitoreo y alertas, fortaleciendo habilidades de análisis, validación de procesos y detección de inconsistencias. Además, he realizado pruebas funcionales, validación de APIs y bases de datos en proyectos académicos relacionados con QA.
+            Durante mi práctica profesional en Coopeuch participé en procesos de Gestión de Identidades y Seguridad TI, realizando validación de información, control de accesos, seguimiento de incidencias y automatización de monitoreo y alertas. Complemento esta experiencia con proyectos donde he aplicado pruebas funcionales, validación de APIs, consultas SQL, documentación de resultados y automatización con Python y Playwright.
           </p>
         </motion.div>
 

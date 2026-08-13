@@ -11,44 +11,36 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Analizador Automatizado de Resultados de Pruebas QA",
-    description: "Herramienta en Python que automatiza el análisis de resultados de pruebas de software desde archivos Excel o CSV, calcula métricas de calidad, detecta errores recurrentes y genera reportes visuales para el seguimiento de incidencias.",
-    details: [],
-    tags: ["Python", "Pandas", "Streamlit", "Matplotlib", "OpenPyXL", "Git"],
+    title: "QA Job Alert – Automatización de búsqueda de empleos",
+    description:
+      "Sistema desarrollado en Python para consultar múltiples fuentes de ofertas laborales, detectar nuevas publicaciones y enviar notificaciones automáticas a Telegram con enlaces directos. Utiliza una base SQLite para evitar duplicados e integra alertas de Indeed mediante Gmail API y OAuth.",
+    details: [
+      "Automatización de navegación y extracción de ofertas con Playwright.",
+      "Control de duplicados y estado de notificaciones mediante SQLite.",
+      "Integración de Gmail e Indeed con alertas automáticas a Telegram.",
+    ],
+    tags: ["Python", "Playwright", "SQLite", "Gmail API", "OAuth 2.0", "Telegram Bot API", "BeautifulSoup", "Git"],
   },
   {
-    title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
-    description: "Desarrollo de una plataforma IoT para el monitoreo en tiempo real de espacios delimitados, integrando dispositivos inteligentes, procesamiento de datos y una aplicación web para centralizar alertas, visualización y gestión de eventos.",
+    title: "Analizador Automatizado de Resultados de Pruebas QA",
+    description:
+      "Herramienta desarrollada en Python para procesar resultados de pruebas desde Excel/CSV, identificar fallos recurrentes y generar métricas y visualizaciones que facilitan el análisis de calidad.",
     details: [],
-    tags: [
-      "FastAPI",
-      "React",
-      "Tailwind CSS",
-      "PostgreSQL",
-      "MQTT",
-      "WebRTC",
-      "Raspberry Pi 5",
-      "ESP32",
-      "Git",
-      "Scrum",
-    ],
+    tags: ["Python", "Pandas", "OpenPyXL", "Matplotlib", "Streamlit", "Git"],
   },
   {
     title: "Automatización de Alertas de Seguridad – Coopeuch",
-    description: "Desarrollo de una solución de automatización para consultar direcciones IP mediante InternetDB (Shodan), almacenar resultados y generar alertas automáticas, reduciendo tareas manuales y mejorando la eficiencia del proceso de monitoreo de seguridad.",
+    description:
+      "Solución desarrollada durante mi práctica para automatizar consultas de direcciones IP mediante InternetDB, almacenar resultados y generar alertas automáticas, reduciendo tareas manuales del proceso de monitoreo.",
     details: [],
-    tags: [
-      "Python",
-      "SQLite",
-      "InternetDB (Shodan)",
-      "HTTPX",
-      "Requests",
-      "Telegram Bot API",
-      "SMTP (Yagmail)",
-      "SSH",
-      "Debian Linux",
-      "Git",
-    ],
+    tags: ["Python", "SQLite", "InternetDB/Shodan", "HTTPX", "Requests", "Telegram Bot", "Debian", "SSH"],
+  },
+  {
+    title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
+    description:
+      "Proyecto de título orientado al monitoreo y centralización de alertas en tiempo real mediante dispositivos IoT y una plataforma web. Participé en diseño, integración de componentes, requerimientos, pruebas y validación del sistema.",
+    details: [],
+    tags: ["FastAPI", "React", "PostgreSQL", "MQTT", "WebRTC", "Raspberry Pi", "ESP32", "Git", "Scrum"],
   },
 ];
 
@@ -78,7 +70,7 @@ const ProjectsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, i) => (
             <motion.div
               key={project.title}
