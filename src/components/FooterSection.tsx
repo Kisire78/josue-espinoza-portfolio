@@ -21,7 +21,7 @@ const FooterSection = () => {
             ¿Trabajamos juntos?
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto mb-8">
-            Siempre estoy abierto a nuevas oportunidades en QA.
+            Abierto a oportunidades en QA, validación de sistemas y automatización de procesos.
             ¡No dudes en contactarme!
           </p>
 
