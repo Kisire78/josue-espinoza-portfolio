@@ -87,6 +87,7 @@ const ProjectsSection = () => {
               className="group rounded-xl overflow-hidden bg-card border border-border hover:border-primary/30 transition-colors duration-300 flex flex-col"
             >
               <div className="p-6 flex-1 flex flex-col">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-primary mb-2">{project.context}</p>
                 <h3 className="font-display text-xl font-semibold mb-3">{project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                   {project.description}
