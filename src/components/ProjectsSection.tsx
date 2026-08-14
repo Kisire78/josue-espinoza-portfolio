@@ -3,6 +3,7 @@ import { Github } from "lucide-react";
 
 interface Project {
   title: string;
+  context: string;
   description: string;
   details: string[];
   tags: string[];
@@ -12,8 +13,9 @@ interface Project {
 const projects: Project[] = [
   {
     title: "QA Job Alert – Automatización de búsqueda de empleos",
+    context: "Proyecto personal",
     description:
-      "Sistema desarrollado en Python para consultar múltiples fuentes de ofertas laborales, detectar nuevas publicaciones y enviar notificaciones automáticas a Telegram con enlaces directos. Utiliza una base SQLite para evitar duplicados e integra alertas de Indeed mediante Gmail API y OAuth.",
+      "Sistema desarrollado en Python que consulta múltiples fuentes de ofertas laborales, procesa las publicaciones y notifica automáticamente las nuevas por Telegram con enlaces directos. Integra automatización web, manejo de datos y alertas de correo en un solo flujo (ejecución local).",
     details: [
       "Automatización de navegación y extracción de ofertas con Playwright.",
       "Control de duplicados y estado de notificaciones mediante SQLite.",
@@ -23,6 +25,7 @@ const projects: Project[] = [
   },
   {
     title: "Analizador Automatizado de Resultados de Pruebas QA",
+    context: "Proyecto personal",
     description:
       "Herramienta desarrollada en Python para procesar resultados de pruebas desde Excel/CSV, identificar fallos recurrentes y generar métricas y visualizaciones que facilitan el análisis de calidad.",
     details: [],
@@ -30,6 +33,7 @@ const projects: Project[] = [
   },
   {
     title: "Automatización de Alertas de Seguridad – Coopeuch",
+    context: "Práctica profesional",
     description:
       "Solución desarrollada durante mi práctica para automatizar consultas de direcciones IP mediante InternetDB, almacenar resultados y generar alertas automáticas, reduciendo tareas manuales del proceso de monitoreo.",
     details: [],
@@ -37,8 +41,9 @@ const projects: Project[] = [
   },
   {
     title: "UTS2 – Plataforma IoT para Monitoreo Inteligente",
+    context: "Proyecto de título",
     description:
-      "Proyecto de título orientado al monitoreo y centralización de alertas en tiempo real mediante dispositivos IoT y una plataforma web. Participé en diseño, integración de componentes, requerimientos, pruebas y validación del sistema.",
+      "Plataforma para el monitoreo y centralización de alertas en tiempo real mediante dispositivos IoT y una aplicación web. Participé en diseño, integración de componentes, requerimientos, pruebas y validación del sistema.",
     details: [],
     tags: ["FastAPI", "React", "PostgreSQL", "MQTT", "WebRTC", "Raspberry Pi", "ESP32", "Git", "Scrum"],
   },
