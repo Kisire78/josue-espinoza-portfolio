@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 
-const qaSkills = [
+const coreSkills = [
   "Testing funcional",
   "Postman",
   "APIs REST",
   "SQL",
   "Python",
   "Playwright",
+  "SQLite",
   "Casos de prueba",
   "Gestión de incidencias",
   "Jira",
@@ -15,6 +16,9 @@ const qaSkills = [
   "Linux",
   "Scrum",
   "Kanban",
+];
+
+const complementarySkills = [
   "Selenium",
   "JMeter",
   "k6",
@@ -46,15 +50,32 @@ const QaSkillsSection = () => {
           </p>
         </motion.div>
 
-        <div className="flex flex-wrap gap-3">
-          {qaSkills.map((skill, i) => (
+        <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-4">Aplicadas en proyectos y práctica</p>
+        <div className="flex flex-wrap gap-3 mb-10">
+          {coreSkills.map((skill, i) => (
             <motion.span
               key={skill}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.06 }}
-              className="text-sm px-5 py-2.5 rounded-full bg-secondary text-secondary-foreground font-medium border border-border hover:border-primary/30 hover:bg-primary/10 transition-colors cursor-default"
+              transition={{ duration: 0.4, delay: i * 0.05 }}
+              className="text-sm px-5 py-2.5 rounded-full bg-primary/10 text-foreground font-medium border border-primary/30 hover:bg-primary/20 transition-colors cursor-default"
+            >
+              {skill}
+            </motion.span>
+          ))}
+        </div>
+
+        <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-4">Conocimientos complementarios</p>
+        <div className="flex flex-wrap gap-3">
+          {complementarySkills.map((skill, i) => (
+            <motion.span
+              key={skill}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.05 }}
+              className="text-sm px-5 py-2.5 rounded-full bg-secondary text-secondary-foreground font-medium border border-border hover:border-primary/30 transition-colors cursor-default"
             >
               {skill}
             </motion.span>
